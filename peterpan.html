@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Kelly Advertising Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <header>
+    <center><h1>Jack Kelly * Copywriter</h1></center>
+</header>
+<style>
+    p {
+        padding-top: 5px;
+    }
+    header {
+        padding-top: 20px;
+    }
+    ul{
+        padding-top: 20px;
+    }
+    div {
+     max-width: 500px;
+    }
+    li{
+        display: inline-block;
+       }
+</style>
+<nav>
+    <center>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="spec_ads.html">Spec Ads</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul> 
+        <div>
+            <center><p><h3>"It's Time to Grow Up"</h3></p></center>
+        </div>
+        <center>
+            <ul>
+                <li><a href="discovercard.html">&#8592; Discover Card</a></li>
+                <li><a href="miscl.html">Miscl. Ads &#8594;</a></li>
+            </ul>
+        </center>
+        <p>
+    
+        </p>
+        <div>
+            <p>
+                I’ve been traveling between New York and Philadelphia to see my girlfriend (long distance is fun) and family. And I’ve taken the Peter Pan bus A LOT. 
+
+            </p>
+            <p>
+                At first I wasn't happy about cramming myself into the bus; which I didn’t see as particularly dignified.
+            </p>
+            <p>
+                But I just couldn’t afford paying $160 every couple of weeks to take the Amtrak both ways, which wasn’t all the much faster. I made the practical decision to take the bus; and the savings allowed me to travel more frequently with the same time convenience.
+            </p>
+            <p>
+                Peter Pan as a practical adult speaks to others in my situation who want to travel on a budget. It’s just as convenient as taking the train or a plane. But with the money you save you can travel more. 
+            </p>
+        </div>
+<body>
+    <ul>
+        <li>
+            <div class="img-with-text">
+                <image src="peter_pan_ads/PeterPanBillboard.png" width="240" onclick="change(this)"></image>
+                <p>(click me!)</p>
+            </div>
+        </li>
+        <li>
+            <div class="img-with-text">
+                <image src="peter_pan_ads/peterpanbus.png" width="240" onclick="change(this)"></image>
+                <p>(click me!)</p>
+            </div>
+        </li>
+        <li>
+            <figure>
+                <figcaption><a href="peter_pan_ads/Peter Pan Script.pdf">
+                    Radio Spot
+                </a></figcaption>
+                <audio controls src="peter_pan_ads/Peter_Pan_Radio_Spot.mp3">
+                    </audio>
+            </figure>
+        </li>
+       
+    </ul>
+</body>
+<script>
+    function change(element){
+        element.classList.toggle("fullsize")
+    }
+</script>
